@@ -5,7 +5,9 @@ OpenX internship tasks. Reposiotry includes task1.py and task2.py files which ar
 
 ## Task 1
 Module task1.py contains function named length_longest_substring(s) created according to given instruction. 
+
 After constructing function I designed PyTests in /test/test_task1.py, tests includes instruction examples, one character string as an input, string with numbers as an input and wrong type input which raises TypeError.
+
 To run tests one should run pytest in command window in test path.
 
 ## Task 2
@@ -17,6 +19,6 @@ Module task2.py contains functions auth(), get(url), post(url), put(url), delete
 * delete(url) - returns response which contains all data from requests.delete(). 
 
 After constructing functions I designed PyTests in /test/test_task2.py, tests contain cases for token creation, get booking ids, post booking, put/(update) booking, delete booking.
-I also designed test case which checks if all data in id=1 is the same as in [example](https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-GetBooking) but base is being modified continually and in the time there were no entry with id=1
+I also designed test case which checks if all data in id=1 is the same as in [example](https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-GetBooking) but base is being modified continually and in the time there was no entry with id=1.
 
 To run tests one should run pytest in command window in test path.
