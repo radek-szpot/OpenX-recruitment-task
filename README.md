@@ -1,7 +1,12 @@
 # Recruitment task
 Performed by: Radosław Szpot
 
-OpenX internship tasks. Reposiotry includes task1.py and task2.py files which are my solution to given problem.
+OpenX internship tasks. Reposiotry includes:
+* task1.py 
+* task2.py 
+* test/test_task1.py
+* test/test_task2.py
+files are described below.
 
 ## Task 1
 Module task1.py contains function named length_longest_substring(s) created according to given instruction. 
